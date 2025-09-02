@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Individual Report{% endblock %}
+{% block content %}
+<section class="panel">
+  <h2>Individual Report</h2>
+
+  <div class="form-row">
+    <label for="searchQuery">Search by Name or Roll No:</label>
+    <input type="text" id="searchQuery" placeholder="e.g., Aravindh or AIAT/SDML/01" />
+    <button id="searchBtn" class="btn">Search</button>
+  </div>
+
+  <div id="studentInfo"></div>
+  <div id="studentReport"></div>
+</section>
+{% endblock %}
