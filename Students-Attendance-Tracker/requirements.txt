@@ -1,2 +1,4 @@
+gunicorn
 flask==3.0.3
+
 flask-sqlalchemy==3.1.1
